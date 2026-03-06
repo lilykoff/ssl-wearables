@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=ssl-ft-c24
 #SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:tesv100:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=80G
 #SBATCH --time=12:00:00
