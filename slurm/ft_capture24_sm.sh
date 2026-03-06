@@ -37,7 +37,7 @@ nvidia-smi
 # ---- EDIT THESE PATHS ----
 DATA_ROOT="/dcs05/ciprian/smart/ssl-wearables/capture24_100hz_w10_o0_small"   # must contain X.npy, Y.npy, pid.npy
 REPORT_ROOT="/dcs05/ciprian/smart/ssl-wearables/temp_reports/"                    # output CSVs
-WEIGHTS="/dcs05/ciprian/smart/ssl-wearables/weights/mtl_best.mdl"            # pretrained UKB model
+WEIGHTS="/dcs05/ciprian/smart/ssl-wearables/mtl_best.mdl"            # pretrained UKB model
 
 # Recommended: start modest, then scale up
 # - num_split=1 for speed
