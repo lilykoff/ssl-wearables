@@ -19,7 +19,7 @@ echo "Start: $(date)"
 echo "CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
 
 module load conda/3-24.3.0
-conda activate ssl_env39
+conda activate ssl_env
 
 # Helpful to avoid CPU oversubscription
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
